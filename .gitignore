@@ -1,0 +1,15 @@
+ECHO is on.
+# === Django (Python backend) ===
+env/
+__pycache__/
+*.pyc
+*.sqlite3
+*.log
+*.env
+
+# === Vue.js (frontend) ===
+node_modules/
+dist/
+
+# === System ===
+.DS_Store
